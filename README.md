@@ -18,6 +18,8 @@ Persian EDtunnel - GolafzaniPanel: a UltraBoosted serverless cloudflare worker u
 - سیستم پراکسی پایه 1
 - مصرف بهینه ریکوست
 - - و ... در نسخه های جدید تر!
+
+
 GitHub Repository for https://github.com/zizifn/edgetunnel
 Github Repository for sample: https://github.com/3Kmfi6HP/EDtunnel
 Github Repository for EDtunnel Ultra-Boosted worker: https://github.com/claxpoint/golafzani-panel
