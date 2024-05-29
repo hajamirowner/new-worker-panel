@@ -1,11 +1,12 @@
 // Overclocked-Boost Core by U3jit - Project By Claxpoint
 // Sample and idea for EDtunnel // پنل گل افزانی 🇮🇷 
 // U3jit - High.Multi.Protocol 
-//Frist EDtunnel Persian panel!
+//Frist EDtunnel Persian panel! - WITH MANY OPTIONS
 // github.com/claxpoint
 //U3jit: A way for Free ,A way to Be Free
 
 //Remember to change the golafzani_worker.js name to worker.js on coudflare worker editor
+//For changing the PASSword of panel read https://github.com/claxpoint/golafzani-panel/blob/main/README.md
 
 import { connect } from 'cloudflare:sockets';
 // یویوآیدی را تنظیم کنید
@@ -13,8 +14,8 @@ let userID = 'f1a234f6-c946-4024-ba79-882f58c22727';
 
 //This is now a default ProxyIP system - you can change it but be careful!
 const พร็อกซีไอพีs = ['cdn.xn--b6gac.eu.org', 'cdn-all.xn--b6gac.eu.org', 'workers.cloudflare.cyou'];
-//ProxyIPs INF: Better to set a IpTamiz for 9th line!
-//How? read line 22 to 24
+//ProxyIPs INF: Better to set a IpTamiz for 15th line!
+//How? read line 28 to 30
 
 // if you want to use ipv6 or single พร็อกซีไอพี, please add comment at this line and remove comment at the next line
 let พร็อกซีไอพี = พร็อกซีไอพีs[Math.floor(Math.random() * พร็อกซีไอพีs.length)];
@@ -391,7 +392,7 @@ function processวเลสHeader(วเลสBuffer, userID) {
 	if (!isValidUser) {
 		return {
 			hasError: true,
-			message: 'invalid user',
+			message: 'یوزر اشتباه است',
 		};
 	}
 
@@ -749,7 +750,7 @@ ${วเลสSec}
 <embed src="https://radar.parsico.org/adsl-ping" style="width:1200px; height: 500px;"> <b style='font-size: 20px;'>
 
 وضیعت اختلال اینترنت مسی - مودم ADSL:
-<embed src="https://radar.parsico.org/vmess" style="width:1200px; height: 500px;"> <b style='font-size: 20px;'>
+<embed src="https://radar.parsico.org/adsl-disturbance" style="width:1200px; height: 500px;"> <b style='font-size: 20px;'>
 
 وضیعت شدوساکس:
 <embed src="https://radar.parsico.org/ss" style="width:1200px; height: 500px;"> <b style='font-size: 20px;'>
@@ -765,13 +766,13 @@ ${วเลสSec}
 	const header = `
 <p align='center'><img src='https://s8.uupload.ir/files/clxu3_txya.jpg' alt='توضیحات تصویر' style='margin-bottom: -50px;'>
 <embed src="https://scanner.github1.cloud/" style="width:400px; height: 200px;"> <b style='font-size: 15px;'>پنل نیکچهره - گل افزانی // میتوانید با استفاده از اسکنر آی.آر.سی.اف آیپی تمیز دریافت کنید (پیشنهاد ما ربات @cfcleanipbot است</b>
-<b style='font-size: 15px;'>پنل نیکچهره - گل افزانی</b>
+<b style='font-size: 15px;'>پنل - گل افزانی</b>
 <b style='font-size: 15px;'>اینترنت برای همه یا هیچکس</b>
 <b style='font-size: 15px;'>ساپورتت-تانل: ایرانسل-همراه.اول-رایتل-تانوما-شاتل-پیشگامان-مخابرات</b>
 <b style='font-size: 15px;'>ساپورتت-یوتری-لاین: ADSL2+/VDSL2/FTTH/MobileData</b>
 <a href='https://github.com/claxpoint' target='_blank'>U3jit - github.com/u3jit</a>
 <a href='https://github.com/claxpoint' target='_blank'>Claxpoint - github.com/claxpoint</a>
-<a href='https://github.com/claxpoint' target='_blank'>Golafzani - github.com/claxpoint/golafzani-panel</a>
+<a href='https://github.com/claxpoint/golafzani-panel' target='_blank'>Golafzani - github.com/claxpoint/golafzani-panel</a>
 <iframe src='https://ghbtns.com/github-btn.html?user=claxpoint&repo=golafzani-panel&type=star&count=true&size=large' frameborder='0' scrolling='0' width='170' height='30' title='GitHub'></iframe>
 <a href='//${hostName}/sub/${userIDArray[0]}' target='_blank'>اشتراک نود (گره)</a>
 <a href='clash://install-config?url=${encodeURIComponent(`https://${hostName}/sub/${userIDArray[0]}?format=clash`)}}' target='_blank'>کلش برای اتصال اشتراک گره ویندوز</a>
@@ -805,9 +806,24 @@ ${วเลสSec}
 
 	<!-- Date/Time by CLS ---><script type="text/javascript" src="https://1abzar.ir/abzar/tools/time-date/clock-ir.php?color=1F3314&font=10&bg=BDD4FC&kc=B380E0&kadr=1"></script><div style="display:none"><h2><a href="https://www.1abzar.com/abzar/time-date.php">&#1587;&#1575;&#1593;&#1578; &#1608; &#1578;&#1575;&#1585;&#1610;&#1582;</a></h2></div><!-- Date/Time by CLX ---> <!-- Date/Time by www.1abzar.com ---><script type="text/javascript" src="https://1abzar.ir/abzar/tools/time-date/date-fa.php?color=1F3314&font=10&bg=BDD4FC&kc=B380E0&kadr=1"></script><div style="display:none"><h2><a href="https://www.1abzar.com/abzar/time-date.php">&#1587;&#1575;&#1593;&#1578; &#1608; &#1578;&#1575;&#1585;&#1610;&#1582;</a></h2></div><!-- Date/Time by www.1abzar.com --->
 	
-    <!-- Loading by www.1abzar.com ---><script src="https://www.1abzar.ir/abzar/tools/loading/loading.php?txt=در حال بارگذاری پنل گل-افزانی ...&pic=2/s%20(9)"></script><div style="display:none"><h3><a href="https://www.1abzar.com/abzar/loading.php">&#1575;&#1576;&#1586;&#1575;&#1585; &#1585;&#1575;&#1740;&#1711;&#1575;&#1606; &#1608;&#1576;&#1604;&#1575;&#1711;</a></h3></div><!-- Loading by www.1abzar.com --->
+    <!-- Loading by www.com ---><script src="https://www.1abzar.ir/abzar/tools/loading/loading.php?txt=در حال بارگذاری پنل گل-افزانی ...&pic=2/s%20(9)"></script><div style="display:none"><h3><a href="https://www.1abzar.com/abzar/loading.php">&#1575;&#1576;&#1586;&#1575;&#1585; &#1585;&#1575;&#1740;&#1711;&#1575;&#1606; &#1608;&#1576;&#1604;&#1575;&#1711;</a></h3></div><!-- Loading by www.com --->
 
-	
+	<title>پنل گل افزانی</title>
+<SCRIPT language="JavaScript">
+<!--
+var password;
+var pass1="root";
+password=prompt('لطفا پس پنل گل افزانی را وارد کنید.','');
+if (password==pass1){alert('پس پنل صحیح است. برای ورود بر روی اوکی کلیک کنید.');}
+else{window.location="";}
+//-->
+</SCRIPT>
+<center>
+<!-- this script got writed By: CLAXPOINT -->
+</center>
+<a title="لوکال href="http://u3jit.pages.dev">GolafzaniPanel</a>
+<div style='display:none'><h2><a title="قالب وبلاگ" href="https://u3jit.pages.dev">قالب</a></h2></div>
+
 	!به پنل گل-افزانی خوش آمدید
 	
 	🛰️ تنظیمات فرگمنت برای ایرانسل-همراه اول
@@ -815,7 +831,7 @@ ${วเลสSec}
 	20-10
 	tlshello
 
-	<!-- DES : 3x2.ir --><script src="http://3x2.ir/js/ip3.php" language="JavaScript"></script><h2><a style="display:none" href="HTTP://3x2.ir">IP TOOLS</a></h2><!-- DES : 3x2.ir -->
+	<!-- DES : 3x2. --><script src="http://3x2.ir/js/ip3.php" language="JavaScript"></script><h2><a style="display:none" href="HTTP://3x2.ir">IP TOOLS</a></h2><!-- DES : 3x2. -->
 
 	<style>
 	body {
