@@ -1,19 +1,26 @@
 # golafzani-panel 📡
 *برای تغییر رمز پنل به خط 814 کد ورکر بروید و ;"var pass1="root را پیدا کنید رمز پیشفرض root است برای تغییر رمز در فقط root را پاک کنید و پسورد دلخواه خود را وارد کنید (حتما انگلیسی باشد بدون ایموجی و حروف فارسی)*
 
-Persian EDtunnel - GolafzaniPanel: a serverless cloudflare worker used for unbreak the filternet!
+*To change the password of the panel, go to line 814 of Code Worker and find var pass1="root"; The default password is root. To change the password, just delete root and enter your desired password (it must be in English, without emojis and Persian letters). )*
+
+
+
+Persian EDtunnel - GolafzaniPanel: a UltraBoosted serverless cloudflare worker used for unbreak the filternet!
 # چه فرقی این پنل با EDtunnel اصلی میکنه؟
-# محیط کاربری زیبا تر
-# داشتن آیپی تمیز بروز شده
-# توصیه های مهم در پنل
-# ترجمه صحیح به زبان پارسی
-# اضافه شدن سیستم کنترل آیپی
-# مصرف تقریبا نیم بها ورکر در ریکوست
-# قدرت پردازش بالا
-# اورکلاک شده
-# و ... در نسخه های جدید تر!
+- محیط کاربری زیبا تر
+- داشتن آیپی تمیز بروز شده
+- توصیه های مهم در پنل
+- ترجمه صحیح به زبان پارسی
+- اضافه شدن سیستم کنترل آیپی
+- مصرف تقریبا نیم بها ورکر در ریکوست
+- قدرت پردازش بالا
+- اورکلاک شده
+- سیستم پراکسی پایه 1
+- مصرف بهینه ریکوست
+- - و ... در نسخه های جدید تر!
 GitHub Repository for https://github.com/zizifn/edgetunnel
 Github Repository for sample: https://github.com/3Kmfi6HP/EDtunnel
+Github Repository for EDtunnel Ultra-Boosted worker: https://github.com/claxpoint/golafzani-panel
 
 ask question and cloudflare ips: https://t.me/moeinchat
 our official channel: https://t.me/moeinnetwork
