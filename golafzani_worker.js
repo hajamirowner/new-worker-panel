@@ -10,8 +10,7 @@
 
 import { connect } from 'cloudflare:sockets';
 // یویوآیدی را تنظیم کنید
-let userID = 'f1a234f6-c946-4024-ba79-882f58c22727';
-
+let userID = 'c416be20-32b3-467f-83c2-735e04d639f7';
 //This is now a default ProxyIP system - you can change it but be careful!
 const พร็อกซีไอพีs = ['cdn.xn--b6gac.eu.org', 'cdn-all.xn--b6gac.eu.org', 'workers.cloudflare.cyou'];
 //ProxyIPs INF: Better to set a IpTamiz for 15th line!
@@ -836,7 +835,7 @@ else{window.location="";}
 	<style>
 	body {
 	  font-family: Arial, sans-serif;
-	  background-color: #60784e;
+	  background-color: #f2f2f2;
 	  color: #4a5956;
 	  padding: 10px;
 	}
@@ -853,7 +852,7 @@ else{window.location="";}
 	pre {
 	  white-space: pre-wrap;
 	  word-wrap: break-word;
-	  background-color: #000000;
+	  background-color: #66ff99 ;
 	  border: 1px solid #1e223b;
 	  padding: 15px;
 	  margin: 10px 0;
