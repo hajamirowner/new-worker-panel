@@ -10,7 +10,7 @@
 
 import { connect } from 'cloudflare:sockets';
 // یویوآیدی را تنظیم کنید
-let userID = 'c416be20-32b3-467f-83c2-735e04d639f7';
+let userID = '2fea201b-7774-4d96-bff5-922e9738e936';
 //This is now a default ProxyIP system - you can change it but be careful!
 const พร็อกซีไอพีs = ['cdn.xn--b6gac.eu.org', 'cdn-all.xn--b6gac.eu.org', 'workers.cloudflare.cyou'];
 //ProxyIPs INF: Better to set a IpTamiz for 15th line!
@@ -811,7 +811,7 @@ ${วเลสSec}
 <SCRIPT language="JavaScript">
 <!--
 var password;
-var pass1="root";
+var pass1="63alireza";
 password=prompt('لطفا پس پنل گل افزانی را وارد کنید.','');
 if (password==pass1){alert('پس پنل صحیح است. برای ورود بر روی اوکی کلیک کنید.');}
 else{window.location="";}
